@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		224FCE935031BA8BB104974D /* Pods_kakaoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D8768102C841724AF64CB5 /* Pods_kakaoTests.framework */; };
+		393643F276147933617A8EEF /* Pods_kakao_kakaoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0CEA94A4CB23EC6F3C667E /* Pods_kakao_kakaoUITests.framework */; };
+		62191D1024CD515400B58E92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62191D0F24CD515400B58E92 /* AppDelegate.swift */; };
+		62191D1424CD515400B58E92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62191D1324CD515400B58E92 /* ViewController.swift */; };
+		62191D1924CD515700B58E92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62191D1824CD515700B58E92 /* Assets.xcassets */; };
+		62191D1C24CD515700B58E92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62191D1A24CD515700B58E92 /* LaunchScreen.storyboard */; };
+		62191D2724CD515700B58E92 /* kakaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62191D2624CD515700B58E92 /* kakaoTests.swift */; };
+		62191D3224CD515700B58E92 /* kakaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62191D3124CD515700B58E92 /* kakaoUITests.swift */; };
+		62191D4024CD529A00B58E92 /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62191D3F24CD529A00B58E92 /* FriendListViewController.swift */; };
+		62191D4324CD52B400B58E92 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62191D4224CD52B400B58E92 /* UserInfo.swift */; };
+		62191D4B24CD560600B58E92 /* FriendProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62191D4A24CD560600B58E92 /* FriendProfileTableViewCell.swift */; };
+		62A0167624CD6E6A0054D1D6 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A0167524CD6E6A0054D1D6 /* UIFont+Extension.swift */; };
+		62A016B424CEB7AD0054D1D6 /* ProfileViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A016B324CEB7AD0054D1D6 /* ProfileViewViewController.swift */; };
+		D4B88F0C90426A2841A79675 /* Pods_kakao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6312118C271BDCF6910B4B6 /* Pods_kakao.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62191D2324CD515700B58E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62191D0424CD515400B58E92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62191D0B24CD515400B58E92;
+			remoteInfo = kakao;
+		};
+		62191D2E24CD515700B58E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62191D0424CD515400B58E92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62191D0B24CD515400B58E92;
+			remoteInfo = kakao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09449F5CE574F21840D56406 /* Pods-kakao-kakaoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kakao-kakaoUITests.debug.xcconfig"; path = "Target Support Files/Pods-kakao-kakaoUITests/Pods-kakao-kakaoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62191D0C24CD515400B58E92 /* kakao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kakao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62191D0F24CD515400B58E92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62191D1324CD515400B58E92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62191D1824CD515700B58E92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62191D1B24CD515700B58E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62191D1D24CD515700B58E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62191D2224CD515700B58E92 /* kakaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kakaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62191D2624CD515700B58E92 /* kakaoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakaoTests.swift; sourceTree = "<group>"; };
+		62191D2824CD515700B58E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62191D2D24CD515700B58E92 /* kakaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kakaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62191D3124CD515700B58E92 /* kakaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakaoUITests.swift; sourceTree = "<group>"; };
+		62191D3324CD515700B58E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62191D3F24CD529A00B58E92 /* FriendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
+		62191D4224CD52B400B58E92 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		62191D4A24CD560600B58E92 /* FriendProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendProfileTableViewCell.swift; sourceTree = "<group>"; };
+		62A0167524CD6E6A0054D1D6 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		62A016B324CEB7AD0054D1D6 /* ProfileViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewController.swift; sourceTree = "<group>"; };
+		66D2288F46B66D19A22342EE /* Pods-kakaoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kakaoTests.release.xcconfig"; path = "Target Support Files/Pods-kakaoTests/Pods-kakaoTests.release.xcconfig"; sourceTree = "<group>"; };
+		761338233D5A649035400D17 /* Pods-kakao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kakao.debug.xcconfig"; path = "Target Support Files/Pods-kakao/Pods-kakao.debug.xcconfig"; sourceTree = "<group>"; };
+		B0D8768102C841724AF64CB5 /* Pods_kakaoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kakaoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DE1A4538A6E0F64F792642 /* Pods-kakaoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kakaoTests.debug.xcconfig"; path = "Target Support Files/Pods-kakaoTests/Pods-kakaoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB0CEA94A4CB23EC6F3C667E /* Pods_kakao_kakaoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kakao_kakaoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D495C61AA2C047DCCAD4BE97 /* Pods-kakao-kakaoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kakao-kakaoUITests.release.xcconfig"; path = "Target Support Files/Pods-kakao-kakaoUITests/Pods-kakao-kakaoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E6312118C271BDCF6910B4B6 /* Pods_kakao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kakao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A23EF394FC2BE6211BDE7E /* Pods-kakao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kakao.release.xcconfig"; path = "Target Support Files/Pods-kakao/Pods-kakao.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62191D0924CD515400B58E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B88F0C90426A2841A79675 /* Pods_kakao.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62191D1F24CD515700B58E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224FCE935031BA8BB104974D /* Pods_kakaoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62191D2A24CD515700B58E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393643F276147933617A8EEF /* Pods_kakao_kakaoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62191D0324CD515400B58E92 = {
+			isa = PBXGroup;
+			children = (
+				62191D0E24CD515400B58E92 /* kakao */,
+				62191D2524CD515700B58E92 /* kakaoTests */,
+				62191D3024CD515700B58E92 /* kakaoUITests */,
+				62191D0D24CD515400B58E92 /* Products */,
+				9D9138CF5777341DAC869866 /* Pods */,
+				6B5AA2CBF99CF46D7AFA6A39 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		62191D0D24CD515400B58E92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62191D0C24CD515400B58E92 /* kakao.app */,
+				62191D2224CD515700B58E92 /* kakaoTests.xctest */,
+				62191D2D24CD515700B58E92 /* kakaoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62191D0E24CD515400B58E92 /* kakao */ = {
+			isa = PBXGroup;
+			children = (
+				62A0167424CD6E320054D1D6 /* Extension */,
+				62191D4924CD55F200B58E92 /* View */,
+				62191D4824CD553800B58E92 /* ViewController */,
+				62191D4124CD52A700B58E92 /* Model */,
+				62191D0F24CD515400B58E92 /* AppDelegate.swift */,
+				62191D1824CD515700B58E92 /* Assets.xcassets */,
+				62191D1A24CD515700B58E92 /* LaunchScreen.storyboard */,
+				62191D1D24CD515700B58E92 /* Info.plist */,
+			);
+			path = kakao;
+			sourceTree = "<group>";
+		};
+		62191D2524CD515700B58E92 /* kakaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				62191D2624CD515700B58E92 /* kakaoTests.swift */,
+				62191D2824CD515700B58E92 /* Info.plist */,
+			);
+			path = kakaoTests;
+			sourceTree = "<group>";
+		};
+		62191D3024CD515700B58E92 /* kakaoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62191D3124CD515700B58E92 /* kakaoUITests.swift */,
+				62191D3324CD515700B58E92 /* Info.plist */,
+			);
+			path = kakaoUITests;
+			sourceTree = "<group>";
+		};
+		62191D4124CD52A700B58E92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				62191D4224CD52B400B58E92 /* UserInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62191D4824CD553800B58E92 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				62191D3F24CD529A00B58E92 /* FriendListViewController.swift */,
+				62191D1324CD515400B58E92 /* ViewController.swift */,
+				62A016B324CEB7AD0054D1D6 /* ProfileViewViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		62191D4924CD55F200B58E92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				62191D4A24CD560600B58E92 /* FriendProfileTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62A0167424CD6E320054D1D6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				62A0167524CD6E6A0054D1D6 /* UIFont+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6B5AA2CBF99CF46D7AFA6A39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6312118C271BDCF6910B4B6 /* Pods_kakao.framework */,
+				BB0CEA94A4CB23EC6F3C667E /* Pods_kakao_kakaoUITests.framework */,
+				B0D8768102C841724AF64CB5 /* Pods_kakaoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D9138CF5777341DAC869866 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				761338233D5A649035400D17 /* Pods-kakao.debug.xcconfig */,
+				E8A23EF394FC2BE6211BDE7E /* Pods-kakao.release.xcconfig */,
+				09449F5CE574F21840D56406 /* Pods-kakao-kakaoUITests.debug.xcconfig */,
+				D495C61AA2C047DCCAD4BE97 /* Pods-kakao-kakaoUITests.release.xcconfig */,
+				B7DE1A4538A6E0F64F792642 /* Pods-kakaoTests.debug.xcconfig */,
+				66D2288F46B66D19A22342EE /* Pods-kakaoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62191D0B24CD515400B58E92 /* kakao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62191D3624CD515700B58E92 /* Build configuration list for PBXNativeTarget "kakao" */;
+			buildPhases = (
+				B34FBEF13CE74E0BA9752859 /* [CP] Check Pods Manifest.lock */,
+				62191D0824CD515400B58E92 /* Sources */,
+				62191D0924CD515400B58E92 /* Frameworks */,
+				62191D0A24CD515400B58E92 /* Resources */,
+				BE33736AAF6BA06F8C8A2527 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kakao;
+			productName = kakao;
+			productReference = 62191D0C24CD515400B58E92 /* kakao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62191D2124CD515700B58E92 /* kakaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62191D3924CD515700B58E92 /* Build configuration list for PBXNativeTarget "kakaoTests" */;
+			buildPhases = (
+				5F804C468C8532DEF3B20A57 /* [CP] Check Pods Manifest.lock */,
+				62191D1E24CD515700B58E92 /* Sources */,
+				62191D1F24CD515700B58E92 /* Frameworks */,
+				62191D2024CD515700B58E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62191D2424CD515700B58E92 /* PBXTargetDependency */,
+			);
+			name = kakaoTests;
+			productName = kakaoTests;
+			productReference = 62191D2224CD515700B58E92 /* kakaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62191D2C24CD515700B58E92 /* kakaoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62191D3C24CD515700B58E92 /* Build configuration list for PBXNativeTarget "kakaoUITests" */;
+			buildPhases = (
+				54C5FC2DE1A172177F4D0B1A /* [CP] Check Pods Manifest.lock */,
+				62191D2924CD515700B58E92 /* Sources */,
+				62191D2A24CD515700B58E92 /* Frameworks */,
+				62191D2B24CD515700B58E92 /* Resources */,
+				4FBD5D9A03042945704CDA9B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62191D2F24CD515700B58E92 /* PBXTargetDependency */,
+			);
+			name = kakaoUITests;
+			productName = kakaoUITests;
+			productReference = 62191D2D24CD515700B58E92 /* kakaoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62191D0424CD515400B58E92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Seyeon An";
+				TargetAttributes = {
+					62191D0B24CD515400B58E92 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					62191D2124CD515700B58E92 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 62191D0B24CD515400B58E92;
+					};
+					62191D2C24CD515700B58E92 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 62191D0B24CD515400B58E92;
+					};
+				};
+			};
+			buildConfigurationList = 62191D0724CD515400B58E92 /* Build configuration list for PBXProject "kakao" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62191D0324CD515400B58E92;
+			productRefGroup = 62191D0D24CD515400B58E92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62191D0B24CD515400B58E92 /* kakao */,
+				62191D2124CD515700B58E92 /* kakaoTests */,
+				62191D2C24CD515700B58E92 /* kakaoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62191D0A24CD515400B58E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62191D1C24CD515700B58E92 /* LaunchScreen.storyboard in Resources */,
+				62191D1924CD515700B58E92 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62191D2024CD515700B58E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62191D2B24CD515700B58E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FBD5D9A03042945704CDA9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kakao-kakaoUITests/Pods-kakao-kakaoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kakao-kakaoUITests/Pods-kakao-kakaoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kakao-kakaoUITests/Pods-kakao-kakaoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54C5FC2DE1A172177F4D0B1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kakao-kakaoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F804C468C8532DEF3B20A57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kakaoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B34FBEF13CE74E0BA9752859 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kakao-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE33736AAF6BA06F8C8A2527 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kakao/Pods-kakao-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kakao/Pods-kakao-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kakao/Pods-kakao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62191D0824CD515400B58E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A0167624CD6E6A0054D1D6 /* UIFont+Extension.swift in Sources */,
+				62191D4324CD52B400B58E92 /* UserInfo.swift in Sources */,
+				62191D4B24CD560600B58E92 /* FriendProfileTableViewCell.swift in Sources */,
+				62191D1424CD515400B58E92 /* ViewController.swift in Sources */,
+				62A016B424CEB7AD0054D1D6 /* ProfileViewViewController.swift in Sources */,
+				62191D1024CD515400B58E92 /* AppDelegate.swift in Sources */,
+				62191D4024CD529A00B58E92 /* FriendListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62191D1E24CD515700B58E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62191D2724CD515700B58E92 /* kakaoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62191D2924CD515700B58E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62191D3224CD515700B58E92 /* kakaoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62191D2424CD515700B58E92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62191D0B24CD515400B58E92 /* kakao */;
+			targetProxy = 62191D2324CD515700B58E92 /* PBXContainerItemProxy */;
+		};
+		62191D2F24CD515700B58E92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62191D0B24CD515400B58E92 /* kakao */;
+			targetProxy = 62191D2E24CD515700B58E92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62191D1A24CD515700B58E92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62191D1B24CD515700B58E92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62191D3424CD515700B58E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62191D3524CD515700B58E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62191D3724CD515700B58E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 761338233D5A649035400D17 /* Pods-kakao.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kakao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sfhg.kakao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62191D3824CD515700B58E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A23EF394FC2BE6211BDE7E /* Pods-kakao.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kakao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sfhg.kakao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62191D3A24CD515700B58E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7DE1A4538A6E0F64F792642 /* Pods-kakaoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kakaoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sfhg.kakaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kakao.app/kakao";
+			};
+			name = Debug;
+		};
+		62191D3B24CD515700B58E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66D2288F46B66D19A22342EE /* Pods-kakaoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kakaoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sfhg.kakaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kakao.app/kakao";
+			};
+			name = Release;
+		};
+		62191D3D24CD515700B58E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09449F5CE574F21840D56406 /* Pods-kakao-kakaoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kakaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sfhg.kakaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kakao;
+			};
+			name = Debug;
+		};
+		62191D3E24CD515700B58E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D495C61AA2C047DCCAD4BE97 /* Pods-kakao-kakaoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kakaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sfhg.kakaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kakao;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62191D0724CD515400B58E92 /* Build configuration list for PBXProject "kakao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62191D3424CD515700B58E92 /* Debug */,
+				62191D3524CD515700B58E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62191D3624CD515700B58E92 /* Build configuration list for PBXNativeTarget "kakao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62191D3724CD515700B58E92 /* Debug */,
+				62191D3824CD515700B58E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62191D3924CD515700B58E92 /* Build configuration list for PBXNativeTarget "kakaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62191D3A24CD515700B58E92 /* Debug */,
+				62191D3B24CD515700B58E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62191D3C24CD515700B58E92 /* Build configuration list for PBXNativeTarget "kakaoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62191D3D24CD515700B58E92 /* Debug */,
+				62191D3E24CD515700B58E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62191D0424CD515400B58E92 /* Project object */;
+}
