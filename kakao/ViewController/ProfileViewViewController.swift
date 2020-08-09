@@ -9,8 +9,8 @@ import UIKit
 
 class ProfileViewViewController: UIViewController {
     var imageView = UIImageView()
-    var nameLabel = UILabel()
-    var profileButton = UIButton()
+    var userNameLabel = UILabel()
+    var profileImageButton = UIButton()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,23 +25,23 @@ class ProfileViewViewController: UIViewController {
             make.edges.equalToSuperview()
         }
         
-        view.addSubview(nameLabel)
-        nameLabel.text = "안세연"
-        nameLabel.textColor = .black
-        nameLabel.snp.makeConstraints { make in
+        view.addSubview(userNameLabel)
+        userNameLabel.text = "안세연"
+        userNameLabel.textColor = .black
+        userNameLabel.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
             make.bottom.equalToSuperview().inset(150)
         }
         
-        view.addSubview(profileButton)
-        profileButton.setBackgroundImage(UIImage(named: "profileimage"), for: .normal)
-        profileButton.snp.makeConstraints { make in
+        view.addSubview(profileImageButton)
+        profileImageButton.setBackgroundImage(UIImage(named: "profileimage"), for: .normal)
+        profileImageButton.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
             make.size.equalTo(100)
-            make.bottom.equalTo(nameLabel.snp.top).offset(-20)
+            make.bottom.equalTo(userNameLabel.snp.top).offset(-20)
         }
-        profileButton.layer.cornerRadius = 30
-        profileButton.layer.masksToBounds = true
+        profileImageButton.layer.cornerRadius = 30
+        profileImageButton.layer.masksToBounds = true
     }
 }
 
