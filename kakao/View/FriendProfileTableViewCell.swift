@@ -15,7 +15,6 @@ class FriendProfileTableViewCell: UITableViewCell {
     var statusMessageLabel = UILabel()
     var profileMusicButton = UIButton()
     
-    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         setUp()
@@ -25,19 +24,13 @@ class FriendProfileTableViewCell: UITableViewCell {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
 
-    
     func setUp(){
         contentView.addSubview(profileImageButton)
         profileImageButton.snp.makeConstraints { make in
             make.leading.top.bottom.equalToSuperview().inset(10)
             make.size.equalTo(40)
         }
-        //profileImageButton.addTarget(self, action: #selector(didTapProfileImage), for: .touchUpInside)
-        
-//        let emailButton = UIButton()
-//        UIButton.
                 
         let stackView = UIStackView()
         stackView.axis = .vertical
@@ -58,14 +51,13 @@ class FriendProfileTableViewCell: UITableViewCell {
         statusMessageLabel.textColor = UIColor.black.withAlphaComponent(0.5)
         
         contentView.addSubview(profileMusicButton)
-          profileMusicButton.snp.makeConstraints{ make in
+        profileMusicButton.snp.makeConstraints{ make in
             make.trailing.equalToSuperview().inset(10)
             make.centerY.equalToSuperview()
             make.leading.equalTo(stackView.snp.trailing).offset(10)
             //priority medium
             make.width.lessThanOrEqualTo(UIScreen.main.bounds.width / 3).priority(.medium)
           }
-        
         profileMusicButton.setTitleColor(.systemGreen, for: .normal)
         profileMusicButton.contentEdgeInsets = UIEdgeInsets(top: 5, left: 5, bottom: 5, right: 5)
         profileMusicButton.titleLabel?.font = UIFont.defaultFont
@@ -73,7 +65,6 @@ class FriendProfileTableViewCell: UITableViewCell {
         profileMusicButton.layer.borderWidth = 1
         profileMusicButton.layer.cornerRadius = 10
         profileMusicButton.setContentHuggingPriority(.defaultHigh, for: .horizontal)
-    
     }
     
     func configure(userInfo: UserInfo){
@@ -89,12 +80,6 @@ class FriendProfileTableViewCell: UITableViewCell {
             profileMusicButton.isHidden = true
         }
     }
-    
-
-       
-   
-    
-    
 }
     
 
