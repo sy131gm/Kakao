@@ -8,7 +8,6 @@
 import UIKit
 
 class ProfileViewViewController: UIViewController {
-
     var imageView = UIImageView()
     var nameLabel = UILabel()
     var profileButton = UIButton()
