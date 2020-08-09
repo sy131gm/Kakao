@@ -40,7 +40,6 @@ class EmailTableViewCell: UITableViewCell {
                  make.size.equalTo(30)
              }
         
-                
         let stackView = UIStackView()
         stackView.axis = .vertical
         stackView.spacing = 5
