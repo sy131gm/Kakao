@@ -9,7 +9,6 @@
 import Foundation
 import UIKit
 
-
 struct UserInfo {
     var profileImage: UIImage? = UIImage(named: "bluePerson")
     var userName: String

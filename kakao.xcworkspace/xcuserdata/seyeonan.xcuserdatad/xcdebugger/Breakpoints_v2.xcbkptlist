@@ -7,33 +7,33 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "77E96A56-DBC0-4379-B92A-A57750EE78C8"
+            uuid = "3D6DCA83-8664-44AA-942B-9039E0679B63"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h"
+            filePath = "kakao/View/EmailTableViewCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "titleEdgeInsets"
-            landmarkType = "24">
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "configure(emailInfo:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "20F48A2D-FF31-49FD-B522-78CBC9C5BEC2"
+            uuid = "FF9776FA-50E3-450E-8154-963B5CDAEB53"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h"
+            filePath = "kakao/View/EmailTableViewCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "UI_APPEARANCE_SELECTOR"
-            landmarkType = "24">
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "configure(emailInfo:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

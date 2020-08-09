@@ -41,14 +41,13 @@ class ProfileViewViewController: UIViewController {
             make.size.equalTo(100)
             make.bottom.equalTo(nameLabel.snp.top).offset(-20)
         }
+        
         profileButton.layer.cornerRadius = 30
         profileButton.layer.masksToBounds = true
        // profileButton.addTarget(self, action: #selector(didTapProfileImage), for: .touchUpInside)
+        
+        
     }
-    
-
-    
-   
 }
 
 

@@ -15,6 +15,7 @@ class FriendProfileTableViewCell: UITableViewCell {
     var statusMessageLabel = UILabel()
     var profileMusicButton = UIButton()
     
+    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         setUp()
@@ -25,6 +26,8 @@ class FriendProfileTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
+
+    
     func setUp(){
         contentView.addSubview(profileImageButton)
         profileImageButton.snp.makeConstraints { make in
@@ -33,6 +36,9 @@ class FriendProfileTableViewCell: UITableViewCell {
         }
         //profileImageButton.addTarget(self, action: #selector(didTapProfileImage), for: .touchUpInside)
         
+//        let emailButton = UIButton()
+//        UIButton.
+                
         let stackView = UIStackView()
         stackView.axis = .vertical
         stackView.spacing = 5
@@ -40,7 +46,6 @@ class FriendProfileTableViewCell: UITableViewCell {
         stackView.snp.makeConstraints { make in
             make.leading.equalTo(profileImageButton.snp.trailing).offset(10)
             make.centerY.equalToSuperview()
-      
         }
 
         stackView.addArrangedSubview(userNameLabel)
