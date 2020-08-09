@@ -20,6 +20,9 @@
 		62191D4B24CD560600B58E92 /* FriendProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62191D4A24CD560600B58E92 /* FriendProfileTableViewCell.swift */; };
 		62A0167624CD6E6A0054D1D6 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A0167524CD6E6A0054D1D6 /* UIFont+Extension.swift */; };
 		62A016B424CEB7AD0054D1D6 /* ProfileViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A016B324CEB7AD0054D1D6 /* ProfileViewViewController.swift */; };
+		62A016B624DBEFFA0054D1D6 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A016B524DBEFF90054D1D6 /* EmailViewController.swift */; };
+		62A016B824DBF2EB0054D1D6 /* EmailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A016B724DBF2EB0054D1D6 /* EmailTableViewCell.swift */; };
+		62A016BA24DD1D930054D1D6 /* EmailInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A016B924DD1D930054D1D6 /* EmailInfo.swift */; };
 		D4B88F0C90426A2841A79675 /* Pods_kakao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6312118C271BDCF6910B4B6 /* Pods_kakao.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +62,9 @@
 		62191D4A24CD560600B58E92 /* FriendProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendProfileTableViewCell.swift; sourceTree = "<group>"; };
 		62A0167524CD6E6A0054D1D6 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		62A016B324CEB7AD0054D1D6 /* ProfileViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewController.swift; sourceTree = "<group>"; };
+		62A016B524DBEFF90054D1D6 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		62A016B724DBF2EB0054D1D6 /* EmailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTableViewCell.swift; sourceTree = "<group>"; };
+		62A016B924DD1D930054D1D6 /* EmailInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailInfo.swift; sourceTree = "<group>"; };
 		66D2288F46B66D19A22342EE /* Pods-kakaoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kakaoTests.release.xcconfig"; path = "Target Support Files/Pods-kakaoTests/Pods-kakaoTests.release.xcconfig"; sourceTree = "<group>"; };
 		761338233D5A649035400D17 /* Pods-kakao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kakao.debug.xcconfig"; path = "Target Support Files/Pods-kakao/Pods-kakao.debug.xcconfig"; sourceTree = "<group>"; };
 		B0D8768102C841724AF64CB5 /* Pods_kakaoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kakaoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				62191D4224CD52B400B58E92 /* UserInfo.swift */,
+				62A016B924DD1D930054D1D6 /* EmailInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,6 +173,7 @@
 				62191D3F24CD529A00B58E92 /* FriendListViewController.swift */,
 				62191D1324CD515400B58E92 /* ViewController.swift */,
 				62A016B324CEB7AD0054D1D6 /* ProfileViewViewController.swift */,
+				62A016B524DBEFF90054D1D6 /* EmailViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -174,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				62191D4A24CD560600B58E92 /* FriendProfileTableViewCell.swift */,
+				62A016B724DBF2EB0054D1D6 /* EmailTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -447,10 +456,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A016BA24DD1D930054D1D6 /* EmailInfo.swift in Sources */,
 				62A0167624CD6E6A0054D1D6 /* UIFont+Extension.swift in Sources */,
 				62191D4324CD52B400B58E92 /* UserInfo.swift in Sources */,
 				62191D4B24CD560600B58E92 /* FriendProfileTableViewCell.swift in Sources */,
+				62A016B624DBEFFA0054D1D6 /* EmailViewController.swift in Sources */,
 				62191D1424CD515400B58E92 /* ViewController.swift in Sources */,
+				62A016B824DBF2EB0054D1D6 /* EmailTableViewCell.swift in Sources */,
 				62A016B424CEB7AD0054D1D6 /* ProfileViewViewController.swift in Sources */,
 				62191D1024CD515400B58E92 /* AppDelegate.swift in Sources */,
 				62191D4024CD529A00B58E92 /* FriendListViewController.swift in Sources */,
